@@ -1,0 +1,12 @@
+{
+  "name": "fed-l06-crud-server",
+  "version": "1.0.0",
+  "description": "FED Tutorial 6 - CRUD Server and API Testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
