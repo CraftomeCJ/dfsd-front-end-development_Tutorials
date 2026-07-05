@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connect Card</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <div id="card" class="bg-indigo-500 w-75 rounded-lg p-5 m-12 mx-auto">
+    <img class="size-20 object-cover rounded-full border border-white -mt-16 mx-auto" src="images/john.jpg" alt="Profile photo of John Doe" />
+
+    <p id="name" class="font-medium text-white mt-2 text-center">John Doe</p>
+
+    <p id="request" class="text-sm text-indigo-200 text-center">Sent you a connection request</p>
+
+    <div class="mt-4 space-x-6 text-center">
+      <button id="accept" class="bg-white text-indigo-600 border border-indigo-500 font-medium text-sm rounded-md px-4 py-2">
+        Accept
+      </button>
+
+      <button id="decline" class="text-white border border-indigo-300 text-sm rounded-md px-4 py-2">
+        Decline
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
