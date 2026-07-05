@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 101,
+      "title": "1984",
+      "author": { "id": 1, "name": "George Orwell" },
+      "cover_image": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+    },
+    {
+      "id": 102,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": { "id": 2, "name": "J.K. Rowling" },
+      "cover_image": "https://covers.openlibrary.org/b/id/7984916-L.jpg"
+    },
+    {
+      "id": 103,
+      "title": "To Kill a Mockingbird",
+      "author": { "id": 3, "name": "Harper Lee" },
+      "cover_image": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+    },
+    {
+      "id": 104,
+      "title": "The Great Gatsby",
+      "author": { "id": 4, "name": "F. Scott Fitzgerald" },
+      "cover_image": "https://covers.openlibrary.org/b/id/12364437-L.jpg"
+    },
+    {
+      "id": 105,
+      "title": "The Hobbit",
+      "author": { "id": 5, "name": "J.R.R. Tolkien" },
+      "cover_image": "https://covers.openlibrary.org/b/id/6979861-L.jpg"
+    }
+  ]
+}
