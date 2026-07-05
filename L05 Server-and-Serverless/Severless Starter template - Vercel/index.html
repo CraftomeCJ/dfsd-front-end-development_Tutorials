@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serverless Demo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-indigo-50 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded shadow w-full max-w-md text-center">
+    <h1 class="text-xl font-bold mb-4">Greet API</h1>
+    <button id="greetBtn" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Call API</button>
+    <p id="output" class="mt-4 text-gray-700"></p>
+  </div>
+
+  <script>
+    document.getElementById('greetBtn').onclick = async () => {
+      const res = await fetch('/api/greet');
+      const data = await res.json();
+      document.getElementById('output').innerText = data.message;
+    };
+  </script>
+</body>
+</html>
